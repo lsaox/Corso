@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corso Home Services - Our Services</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #282a2c;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #fdfdfd;
+      color: #000000;
+      padding: 100px 20px 150px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+      color: #7c7c7c;
+    }
+
+    .btn-primary {
+      background-color: #212529;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #000;
+    }
+
+    /* Services Section */
+    .services-section, .installations-section {
+      padding: 60px 20px;
+      color: #212529;
+      background-color: #f8f9fa;
+    }
+
+    .services-section h2, .installations-section h2 {
+      font-weight: 700;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .service-card, .installation-card {
+      border: 1px solid #000000;
+      transition: box-shadow 0.3s ease;
+      padding: 20px;
+      text-align: center;
+      background-color: white;
+      margin-bottom: 30px;
+    }
+
+    .service-card:hover, .installation-card:hover {
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-card i, .installation-card i {
+      font-size: 3rem;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+
+    .service-card h5, .installation-card h5 {
+      font-weight: 600;
+      color: #000;
+      margin-top: 20px;
+    }
+
+    .service-card p, .installation-card p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 15px 0;
+    }
+
+    a {
+      color: #212529;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom 0.3s ease;
+    }
+
+    a:hover {
+      border-bottom: 1px solid #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assetsf/logo.png" alt="Corso Logo" height="150" class="me-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>Explore our wide range of home services designed to improve your living space. We service OKC/Edmuond as well as the surrounding areas.</p>
+    </div>    <div class="text-center mt-5">
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    </div>
+  </div>
+
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+    
+      <div class="row">
+        <!-- Service Card 1: Painting -->
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-paint-roller"></i>
+            <h5>Painting</h5>
+            <p>Get your walls freshened up with a professional paint job. We do both interior and exterior painting with high-quality finishes.</p>
+          </div>
+        </div>
+        <!-- Service Card 2: Drywall -->
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-paint-brush"></i>
+            <h5>Drywall</h5>
+            <p>We repair, replace, or install drywall, ensuring smooth, seamless results that are ready for painting.</p>
+          </div>
+        </div>
+        <!-- Service Card 3: Roof Repairs -->
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-tools"></i>
+            <h5>Roof Repairs</h5>
+            <p>Protect your home with professional roof repairs to ensure it withstands the toughest weather conditions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Service Card 4: Gutter Cleaning -->
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-broom"></i>
+            <h5>Gutter Cleaning</h5>
+            <p>Keep your gutters clear to prevent water damage. Our team cleans and inspects gutters to keep your home safe.</p>
+          </div>
+        </div>
+        <!-- Service Card 5: Fence/Gate Repair -->
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-cogs"></i>
+            <h5>Fence/Gate Repair</h5>
+            <p>Need a new fence or gate? We offer quality repairs to keep your property safe and secure.</p>
+          </div>
+        </div>
+        <!-- Service Card 6: Picture Hanging -->
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-image"></i>
+            <h5>Picture Hanging</h5>
+            <p>Let us hang your pictures, mirrors, and artwork securely and at the perfect height for an aesthetic look.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Installations Section -->
+  <section class="installations-section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <h2>Our Installation Services</h2>
+      <div class="row">
+        <!-- Installation Card 1: Window Blinds -->
+        <div class="col-md-4">
+          <div class="installation-card">
+            <i class="fas fa-blind"></i>
+            <h5>Window Blinds/Shades</h5>
+            <p>Professional installation of window blinds or shades to provide privacy and style.</p>
+          </div>
+        </div>
+        <!-- Installation Card 2: TV Mounting -->
+        <div class="col-md-4">
+          <div class="installation-card">
+            <i class="fas fa-tv"></i>
+            <h5>TV Mounting</h5>
+            <p>Mount your TV on the wall for a sleek, modern look and save space in your living room.</p>
+          </div>
+        </div>
+        <!-- Installation Card 3: Shelf Mounting -->
+        <div class="col-md-4">
+          <div class="installation-card">
+            <i class="fas fa-screwdriver"></i>
+            <h5>Shelf Mounting</h5>
+            <p>Need extra storage? We’ll mount shelves to your wall, providing functionality and style.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Installation Card 4: Light Fixture Swaps -->
+        <div class="col-md-4">
+          <div class="installation-card">
+            <i class="fas fa-lightbulb"></i>
+            <h5>Light Fixture Swaps</h5>
+            <p>Replace old, outdated light fixtures with new ones to brighten up your space.</p>
+          </div>
+        </div>
+        <!-- Installation Card 5: Water Faucet Swaps -->
+        <div class="col-md-4">
+          <div class="installation-card">
+            <i class="fas fa-tint"></i>
+            <h5>Water Faucet Swaps</h5>
+            <p>Swap out old faucets for new ones to improve functionality and appearance in your bathroom or kitchen.</p>
+          </div>
+        </div>
+        <!-- Installation Card 6: Closet Shelves -->
+        <div class="col-md-4">
+          <div class="installation-card">
+            <i class="fas fa-cabinet"></i>
+            <h5>Closet Shelves</h5>
+            <p>Get organized with custom closet shelves installed to maximize your space and keep your items neatly stored.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Corso Home Services. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
